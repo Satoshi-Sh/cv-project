@@ -43,12 +43,14 @@ hr {
 
 
 ul {
+  margin-top:40px;
   list-style-type: none;
   display:flex;
   gap:20px;
   justify-content: flex-start;
   font-size:25px;
   font-weight:300;
+  flex-wrap:wrap;
 }
 
 .school {
@@ -67,4 +69,14 @@ ul {
    width:30px;
    border-radius:50%;
    margin-left:min(50%,calc(100vw*0.4))
+}
+
+
+.company {
+  font-weight:400;
+  flex: 0 0 200px;
+
+}
+.position {
+  flex: 0 0 200px;
 }

@@ -10,17 +10,16 @@ class Education extends Component {
 
 render(){
     
-    
 
     const listItems = this.props.educations.map((obj)=>{
-        if (!obj.isComplete)
+        if (!obj.isComplete|obj.isEdit)
         {
             return (
                 <ul key={obj.id}>
             <input key={'s'+obj.id} id= {obj.id} value={obj.school} placeholder='school' onChange={(e)=>this.props.eduChange(e)} className="school-input"></input>
             <input key={'m' +obj.id} id= {obj.id} value={obj.major} placeholder='major' onChange={(e)=>this.props.eduChange(e)} className="major-input"></input>
             <input key={'y' +obj.id} id= {obj.id} value={obj.year} placeholder='year' onChange={(e)=>this.props.eduChange(e)} className="year-input"></input>
-            <button id= {obj.id} onClick={(e)=>this.props.addEducation2(e)}>Add</button>
+            <button id= {obj.id} onClick={(e)=>this.props.addEducation2(e)}>Update</button>
         </ul>)
             
         }
@@ -29,7 +28,10 @@ render(){
             <li key={'s'+obj.id} className="school">{obj.school}</li>
             <li key={'m'+obj.id} className="major">{obj.major}</li>
             <li key={'y'+obj.id} className="year">{obj.year}</li>
+            <div>
+            <button id={obj.id} className='edit' onClick={(e)=>this.props.eduEdit(e)}>Edit</button>
             <button id={obj.id} className='delete' onClick={(e)=>this.props.removeEducation(e)}>Delete</button>
+            </div>
         </ul>)
     }
     );
