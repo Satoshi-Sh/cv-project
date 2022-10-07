@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/Satoshi-Sh/cv-project/static/css/main.87cf1734.css",
-    "main.js": "/Satoshi-Sh/cv-project/static/js/main.0037d914.js",
-    "static/js/787.34a20539.chunk.js": "/Satoshi-Sh/cv-project/static/js/787.34a20539.chunk.js",
-    "index.html": "/Satoshi-Sh/cv-project/index.html",
-    "main.87cf1734.css.map": "/Satoshi-Sh/cv-project/static/css/main.87cf1734.css.map",
-    "main.0037d914.js.map": "/Satoshi-Sh/cv-project/static/js/main.0037d914.js.map",
-    "787.34a20539.chunk.js.map": "/Satoshi-Sh/cv-project/static/js/787.34a20539.chunk.js.map"
+    "main.css": "/cv-project/static/css/main.87cf1734.css",
+    "main.js": "/cv-project/static/js/main.2143e71a.js",
+    "index.html": "/cv-project/index.html",
+    "main.87cf1734.css.map": "/cv-project/static/css/main.87cf1734.css.map",
+    "main.2143e71a.js.map": "/cv-project/static/js/main.2143e71a.js.map"
   },
   "entrypoints": [
     "static/css/main.87cf1734.css",
-    "static/js/main.0037d914.js"
+    "static/js/main.2143e71a.js"
   ]
 }
